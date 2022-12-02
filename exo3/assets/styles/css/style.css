@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 14px;
+}
+html body {
+  background: linear-gradient(180deg, #5c4d7d, #455e89, #2e6f95);
+  border: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: 100%;
+  height: 100%;
+}
+html body > header {
+  grid-column: 1/4;
+  height: 5em;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+html body > header h1 {
+  padding-top: 0.2em;
+  text-align: center;
+  font-size: 3em;
+  color: #ffffff;
+  opacity: 1;
+  height: 70em;
+}
+html body aside {
+  grid-column: 3/4;
+  color: #ffffff;
+  padding: 1em;
+  opacity: 0.7;
+}
+html body aside h4 {
+  padding-top: 1em;
+}
+html body aside ul {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+html body aside ul li {
+  padding: 4px;
+}
+html body main {
+  grid-column: 2/3;
+  background-color: #ffffff;
+  width: 62em;
+}
+html body main article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 62em;
+}
+html body main article h2 {
+  display: none;
+}
+html body main > header {
+  width: 100%;
+}
+html body main h2 {
+  font-weight: 600;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+  color: #2e6f95;
+}
+html body main article:nth-of-type(even) {
+  padding: 15px;
+  height: 232px;
+  grid-template-rows: 1fr;
+}
+html body main article:nth-of-type(even) > section {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+html body main article:nth-of-type(even) > section h3 {
+  font-size: 1em;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 2em;
+  padding: 15px;
+}
+html body main article:nth-of-type(even) > section p {
+  font-size: 0.9em;
+  font-weight: 400;
+  width: 28em;
+  padding: 15px;
+}
+html body main article:nth-of-type(even) > header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+html body main article:nth-of-type(odd) {
+  padding: 15px;
+}
+html body main article:nth-of-type(odd) > header {
+  grid-column: 1/2;
+}
+html body main article:nth-of-type(odd) > section {
+  grid-column: 2/3;
+}
+html body main article:nth-of-type(odd) > section h3 {
+  font-size: 1em;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 2em;
+  padding: 15px;
+}
+html body main article:nth-of-type(odd) > section p {
+  font-size: 0.9em;
+  font-weight: 400;
+  width: 28em;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
