@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+body main {
+  display: grid;
+  grid-templates-row: 1fr 1fr;
+  grid-templates-column: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+body main section:first-of-type {
+  margin: 0;
+  padding: 0;
+  grid-column: 1/2;
+  height: 50vh;
+  border: 0.1px solid #000000;
+}
+body main section:first-of-type section:first-of-type {
+  background: linear-gradient(0deg, #073b4c, #118ab2, #06d6a0);
+}
+body main section:first-of-type section:last-of-type {
+  background: radial-gradient(#073b4c, #118ab2, #06d6a0);
+}
+body main section:nth-of-type(2) {
+  margin: 0;
+  padding: 0;
+  grid-column: 2/3;
+  height: 50vh;
+  border: 0.1px solid #000000;
+}
+body main section:nth-of-type(2) section:first-of-type {
+  background: radial-gradient(#06d6a0, #118ab2, #073b4c);
+}
+body main section:nth-of-type(2) section:last-of-type {
+  background: radial-gradient(#ef476f, #ffd166, #06d6a0, #118ab2, #073b4c);
+}
+body main section:last-of-type {
+  margin: 0;
+  padding: 0;
+  grid-column: 3/4;
+  height: 50vh;
+  border: 0.1px solid #000000;
+}
+body main section:last-of-type section:first-of-type {
+  background: radial-gradient(#ef476f, #ffd166, #06d6a0, #073b4c, #118ab2, #06d6a0, #ffd166, #ef476f);
+}
+body main section:last-of-type section:last-of-type {
+  background: linear-gradient(225deg, #073b4c, #118ab2, #06d6a0, #ffd166, #ef476f);
+}
+
+/*# sourceMappingURL=style.css.map */
